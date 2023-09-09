@@ -48,8 +48,8 @@ body::after {
   margin: 0;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vw;
+  width: max(100vw, 100vh);
+  height: max(100vw, 100vh);
 	background: var(--theme-background);
 	background-attachment: fixed;
 	animation: background_scale 35s ease infinite;
