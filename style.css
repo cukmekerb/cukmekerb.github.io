@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
 
 :root {
 	--theme-button-color: #0967d2;
@@ -12,7 +13,7 @@
 	--theme-button-color: #fff;
 	--theme-background: radial-gradient(circle max(100vw, 100vh) at 97% 95%, rgba(253,70,41,0.9) 0%, rgba(201,1,48,0.9) 26%, rgba(68,36,73,0.9) 100%), url("noise.svg");
 
-	--theme-main-font: 'Noto Sans', sans-serif;
+	--theme-main-font: 'Noto Sans Mono', monospace;
 	--theme-main-font-size: 1em;
 
 	--theme-transition: 0.1s;
@@ -121,20 +122,28 @@ h1 {
 }
 
 .button {
-	background-image: linear-gradient(to top, #fff 50%, #000 50%);
-	background-size: 100% 205%;
 	mix-blend-mode: initial;
 	border-radius: 0.15em;
 	padding: 0.4em;
 	text-decoration: none;
-	color: #fff;
 	font-size: clamp(1em, 2vw, 1.6em);
 	transition: var(--theme-transition);
+	margin: 0 0.5em 0.8em 0;
 }
 
-.button:hover {
-	background-position: 0 100%;
+.button:hover ~ .button:not(:hover) {
+	opacity: 0.3;
+}
+
+.button:nth-child(even), .button:nth-child(odd):hover {
+	background: #000;
+	color: #fff;
+	mix-blend-mode: normal;
+}
+
+.button:nth-child(even):hover, .button:nth-child(odd) {
 	mix-blend-mode: screen;
 	color: #000;
+	background: #fff;
 }
 
