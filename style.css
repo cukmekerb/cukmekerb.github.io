@@ -106,16 +106,21 @@ h1 {
 p {
 	font-size: clamp(1em, 2vw, 1.2em);
 	margin: 0.4em 0;
-	padding-right: min(5vw, 3.5em);
+
+	/* background: #000; */
+
+	display: inline-block;
 }
 
 #greeting {
-	padding: max(1.5em, 6vw) max(1em, 5vw);
+	margin: max(1.5em, 6vw) max(1em, 5vw);
 }
 
 #greeting h1 {
 	font-size: clamp(2em, 4.5vw, 10em);
 	font-weight: 400;
+	/* background: #000; */
+	/* padding: 0.1rem 1.2rem; */
 }
 
 .button {
@@ -125,7 +130,7 @@ p {
 	text-decoration: none;
 	font-size: clamp(1em, 2vw, 1.6em);
 	transition: var(--theme-transition);
-	margin: 0 0.5em 0.8em 0;
+	margin: 0 0.5rem 0.8rem 0;
 	display: inline-block;
 }
 
@@ -133,17 +138,14 @@ p {
 	display: inline-block;
 }
 
-.button_parent:hover .button:not(:hover) {
-	opacity: 0.3;
-}
 
-.button:nth-child(odd), .button:nth-child(even):hover, .button_parent:hover .button:not(:hover):nth-child(even) {
+.button:nth-child(odd), .button:nth-child(even):hover {
 	background: #000;
 	color: #fff;
 	mix-blend-mode: normal;
 }
 
-.button:nth-child(odd):hover, .button:nth-child(even), .button_parent:hover .button:not(:hover):nth-child(odd) {
+.button:nth-child(odd):hover, .button:nth-child(even) {
 	mix-blend-mode: screen;
 	color: #000;
 	background: #fff;
