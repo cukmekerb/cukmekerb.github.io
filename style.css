@@ -106,10 +106,7 @@ h1 {
 p {
 	font-size: clamp(1em, 2vw, 1.2em);
 	margin: 0.4em 0;
-
-	/* background: #000; */
-
-	display: inline-block;
+	display: block;
 }
 
 #greeting {
@@ -119,8 +116,6 @@ p {
 #greeting h1 {
 	font-size: clamp(2em, 4.5vw, 10em);
 	font-weight: 400;
-	/* background: #000; */
-	/* padding: 0.1rem 1.2rem; */
 }
 
 .button {
@@ -135,7 +130,7 @@ p {
 }
 
 .button_parent {
-	display: inline-block;
+	display: inline-flex;
 }
 
 
