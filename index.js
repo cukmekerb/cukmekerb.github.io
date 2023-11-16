@@ -3,7 +3,12 @@ window.addEventListener("DOMContentLoaded", () => {
 		[
 			"Thinking you know why you behave as you do gives you all sorts of excuses for extraordinary behavior.",
 			"Frank Herbert,",
-			"Heretics of Dune."
+			"Chapterhouse: Dune."
+		],
+		[
+			"How do you know I won't respond to your curiosity with a flow of pure shit?",
+			"Frank Herbert,",
+			"Chapterhouse: Dune."
 		],
 		[
 			"The one who is watched does not see. And the watchers have a billion eyes.",
@@ -65,12 +70,12 @@ window.addEventListener("DOMContentLoaded", () => {
 		[
 			"Laws to suppress tend to strengthen what they would prohibit. This is a fine point on which all the legal professions of history have based their job security.",
 			"Frank Herbert,",
-			"Heretics of Dune."
+			"Chapterhouse: Dune."
 		],
 		[
 			"The conventional teacher feels threatened by emerging talents and squelches them because of a deep-seated desire to feel superior and safe in a safe environment.",
 			"Frank Herbert,",
-			"Heretics of Dune."
+			"Chapterhouse: Dune."
 		],
 		[
 			"The car has become the premier object of consumerist affection not only because of its price and display value, but also because of its multi-sexed status as phallus, vagina, and womb all rolled into one hard, soft, supple, wet techno dream.",
