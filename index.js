@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", () => {
 		],
 		[
 			"Never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise.",
-			"Lewis Caroll",
+			"Lewis Caroll,",
 			"Alice's Adventures in Wonderland."
 		],
 		[
@@ -64,7 +64,7 @@ window.addEventListener("DOMContentLoaded", () => {
 		],
 		[
 			"Monster, I do smell horse piss, at which my nose is in great indignation.",
-			"Trinculo,",
+			"William Shakespeare,",
 			"The Tempest."
 		],
 		[
