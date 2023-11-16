@@ -34,7 +34,7 @@ window.addEventListener("DOMContentLoaded", () => {
 			"The Prouerbs of Wysdom."
 		],
 		[
-			"The world turnyþe, as a ball",
+			"The world turnyþe, as a ball.",
 			"John Heywood,",
 			"The Prouerbs of Wysdom."
 		],
@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", () => {
 			"The Prouerbs of Wysdom."
 		],
 		[
-			"Monster, I do smell horse piss, at which my nose is in great indignation",
+			"Monster, I do smell horse piss, at which my nose is in great indignation.",
 			"William Shakespeare,",
 			"The Tempest."
 		],
